@@ -17,6 +17,13 @@
     minAngle: 52
     maxAngle: 125
     angleIncrease: 2
+    shotsPerBurst: 3
+    ShotsPerBurstModified: 3
+    selectedMode: Burst
+    availableModes:
+    - Burst
+    - SemiAuto
+    - FullAuto
     angleDecay: 8
     fireRate: 4.5
   - type: ItemSlots
