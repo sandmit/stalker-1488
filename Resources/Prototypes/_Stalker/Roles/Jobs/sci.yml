@@ -138,6 +138,7 @@
       components:
         - type: Access
           tags:
+            - Sci
             - SciHead
         - type: Bands
           band: Stalker

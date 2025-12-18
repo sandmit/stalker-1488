@@ -31,7 +31,7 @@
   - type: Tag
     tags:
       - Cartridge
-      - STCartridge921PGJ
+      - STCartridge921
   - type: CartridgeAmmo
     proto: Bullet921PGJ
   - type: SpentAmmoVisuals
