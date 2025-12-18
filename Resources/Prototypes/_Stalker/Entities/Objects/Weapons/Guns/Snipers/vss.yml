@@ -52,7 +52,7 @@
       gun_chamber: !type:ContainerSlot
       gun_module_scope: !type:ContainerSlot
   - type: PullDoAfter
-    pullTime: 1.5
+    pullTime: 3.3
   - type: Scope
     zoom: 1.4
     offset: 14

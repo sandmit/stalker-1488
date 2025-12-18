@@ -19,6 +19,8 @@
     angleIncrease: 15
     angleDecay: 75
     fireRate: 0.8
+  - type: PullDoAfter
+    pullTime: 1.8
 
 - type: entity
   parent: STBaseWeaponShotgunMP133

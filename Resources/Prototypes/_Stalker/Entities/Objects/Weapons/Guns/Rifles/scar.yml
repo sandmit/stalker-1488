@@ -61,6 +61,8 @@
     falloffMultiplier: 0.9
   - type: STWeaponAccuracy
     accuracyMultiplier: 1.2
+  - type: PullDoAfter
+    pullTime: 2.3
 
 - type: entity
   parent: STBaseWeaponRifleSCARH

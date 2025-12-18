@@ -1,6 +1,6 @@
 - type: entity
   abstract: true
-  parent: STBaseWeaponShotgun # Не знаю зачем вы заменили базу в прошлый раз, но это ломает отображение спрайтов. 
+  parent: STBaseWeaponShotgun # Не знаю зачем вы заменили базу в прошлый раз, но это ломает отображение спрайтов.
   id: STBaseWeaponShotgunCompact
   components:
   - type: STWeight
@@ -27,6 +27,8 @@
       - CartridgeShotgunBulletRIP
   - type: PullDoAfter
     pullTime: 0.5
+  - type: PullDoAfter
+    pullTime: 1
 
 - type: entity
   parent: STBaseWeaponShotgunCompact

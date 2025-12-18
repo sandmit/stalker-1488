@@ -21,6 +21,8 @@
     angleDecay: 75
   - type: BallisticAmmoProvider
     capacity: 2
+  - type: PullDoAfter
+    pullTime: 1.5
 
 - type: entity
   parent: STBaseWeaponShotgunSawedOf

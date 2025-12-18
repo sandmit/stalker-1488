@@ -31,6 +31,8 @@
     falloffMultiplier: 0.8
   - type: STWeaponAccuracy
     accuracyMultiplier: 2
+  - type: PullDoAfter
+    pullTime: 2
 
 - type: entity
   parent: STBaseWeaponSniperSKS

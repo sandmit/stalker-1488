@@ -59,6 +59,8 @@
         whitelist:
           tags:
           - STCartridge1255
+  - type: PullDoAfter
+    pullTime: 3
 
 - type: entity
   parent: STBaseWeaponRifleAH12

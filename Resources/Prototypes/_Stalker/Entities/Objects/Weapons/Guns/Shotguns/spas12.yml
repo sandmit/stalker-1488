@@ -21,6 +21,8 @@
     angleIncrease: 10
     angleDecay: 50
     fireRate: 2
+  - type: PullDoAfter
+    pullTime: 2.5
 
 - type: entity
   parent: STBaseWeaponShotgunSPAS

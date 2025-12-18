@@ -54,11 +54,11 @@
       gun_magazine: !type:ContainerSlot
       gun_module_muzzle: !type:ContainerSlot
       gun_chamber: !type:ContainerSlot
-  - type: PullDoAfter
-    pullTime: 1.5
   - type: Scope
     zoom: 1.65
     offset: 14
+  - type: PullDoAfter
+    pullTime: 5
 
 - type: entity
   parent: STBaseWeaponRifleOSV96

@@ -29,6 +29,8 @@
       - STCartridge754
   - type: STWeaponAccuracy
     accuracyMultiplier: 5
+  - type: PullDoAfter
+    pullTime: 2.3
 
 - type: entity
   parent: STBaseWeaponSniperMosin

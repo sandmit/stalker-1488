@@ -59,6 +59,8 @@
     falloffMultiplier: 0.8
   - type: STWeaponAccuracy
     accuracyMultiplier: 1.5
+  - type: PullDoAfter
+    pullTime: 2.2
 
 - type: entity
   parent: STBaseWeaponRifleGalil

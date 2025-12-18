@@ -15,6 +15,8 @@
     soundGunshot:
       path: /Audio/_Stalker/Effects/Guns/n_abakan_shot.ogg
     fireRate: 8.5
+  - type: PullDoAfter
+    pullTime: 2
 
 - type: entity
   name: AEK-971
@@ -33,3 +35,5 @@
     soundGunshot:
       path: /Audio/_Stalker/Effects/Guns/aek971.ogg
     fireRate: 9
+  - type: PullDoAfter
+    pullTime: 2

@@ -52,3 +52,5 @@
     falloffMultiplier: 1.2
   - type: STWeaponAccuracy
     accuracyMultiplier: 0.9
+  - type: PullDoAfter
+    pullTime: 2.2

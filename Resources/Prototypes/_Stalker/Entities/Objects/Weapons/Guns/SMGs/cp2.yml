@@ -43,6 +43,8 @@
           whitelist:
             tags:
               - STCartridge919
+    - type: PullDoAfter
+      pullTime: 1.6
 
 - type: entity
   name: СР-2 «Вереск» серафимов
@@ -123,6 +125,8 @@
           whitelist:
             tags:
               - STCartridge921PGJ
+    - type: PullDoAfter
+      pullTime: 1.8
 
 - type: entity
   name: СР-2М «Вереск» серафимов 9x21

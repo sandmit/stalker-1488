@@ -58,6 +58,8 @@
     falloffMultiplier: 0
   - type: STWeaponAccuracy
     accuracyMultiplier: 5
+  - type: PullDoAfter
+    pullTime: 2.4
 
 - type: entity
   parent: STBaseWeaponRifleGalatz

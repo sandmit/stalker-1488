@@ -60,6 +60,8 @@
       gun_chamber: !type:ContainerSlot
   - type: STWeaponAccuracy
     accuracyMultiplier: 3
+  - type: PullDoAfter
+    pullTime: 3.5
 
 - type: entity
   parent: STVBaseWeaponSniperVepr

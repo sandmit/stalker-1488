@@ -24,6 +24,8 @@
     fireRate: 1
   - type: Trash
     time: 300
+  - type: PullDoAfter
+    pullTime: 1.5
 
 - type: entity
   parent: STBaseWeaponShotgunMP155T

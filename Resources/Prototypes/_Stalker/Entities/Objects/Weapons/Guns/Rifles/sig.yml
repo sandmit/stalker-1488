@@ -59,6 +59,8 @@
     falloffMultiplier: 0.8
   - type: STWeaponAccuracy
     accuracyMultiplier: 1.45
+  - type: PullDoAfter
+    pullTime: 2.1
 
 - type: entity
   parent: STBaseWeaponRifleSIG

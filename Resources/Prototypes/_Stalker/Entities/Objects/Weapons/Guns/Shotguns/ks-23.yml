@@ -28,6 +28,8 @@
     fireRate: 0.6
   - type: STWeaponAccuracy
     accuracyMultiplier: 1
+  - type: PullDoAfter
+    pullTime: 3.5
 
 - type: entity
   parent: STBaseWeaponShotgunKS23

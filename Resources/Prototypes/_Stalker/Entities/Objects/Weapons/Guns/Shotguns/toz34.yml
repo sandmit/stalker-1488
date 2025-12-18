@@ -23,13 +23,15 @@
     angleIncrease: 10
     angleDecay: 50
     fireRate: 7
+  - type: PullDoAfter
+    pullTime: 2.2
 
 - type: entity
   parent: STBaseWeaponShotgunTOZ34
   id: STWeaponShotgunTOZ34
   name: TOZ-34
   description: Soviet double-barreled shotgun with vertical barrel arrangement. Prized in the Zone for its reliability and powerful stopping effect against mutants.
- 
+
 - type: entity
   parent: STBaseWeaponShotgunTOZ34
   id: STWeaponShotgunTOZ54

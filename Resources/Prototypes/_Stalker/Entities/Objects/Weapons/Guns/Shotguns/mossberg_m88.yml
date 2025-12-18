@@ -20,6 +20,8 @@
     angleIncrease: 10
     angleDecay: 50
     fireRate: 1
+  - type: PullDoAfter
+    pullTime: 1.5
 
 - type: entity
   parent: STBaseWeaponShotgunMossbergM88

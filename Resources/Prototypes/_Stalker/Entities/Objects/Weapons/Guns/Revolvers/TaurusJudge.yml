@@ -44,3 +44,5 @@
       delay: 1
     - type: RepositoryItem
       categoryName: Оружие
+    - type: PullDoAfter
+      pullTime: 0.6

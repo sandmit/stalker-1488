@@ -57,6 +57,8 @@
         whitelist:
           tags:
           - Cartridge45ACP
+  - type: PullDoAfter
+    pullTime: 1.9
 
 - type: entity
   parent: STBaseWeaponSMGThompson

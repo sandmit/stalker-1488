@@ -56,3 +56,5 @@
         gun_auto_sear: !type:ContainerSlot {}
         gun_chamber: !type:ContainerSlot {}
     - type: Craftable
+    - type: PullDoAfter
+      pullTime: 0.6

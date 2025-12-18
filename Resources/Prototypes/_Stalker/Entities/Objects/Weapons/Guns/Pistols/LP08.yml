@@ -67,4 +67,5 @@
       steps: 1
       zeroVisible: true
     - type: Craftable
-
+    - type: PullDoAfter
+      pullTime: 0.6

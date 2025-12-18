@@ -68,6 +68,8 @@
       gun_chamber: !type:ContainerSlot {}
       gun_auto_sear: !type:ContainerSlot {}
       gun_module_muzzle: !type:ContainerSlot {}
+  - type: PullDoAfter
+    pullTime: 2.2
 
 - type: entity
   parent: STBaseWeaponShotgunSaiga12

@@ -49,6 +49,8 @@
         whitelist:
           tags:
           - STCartridge918
+  - type: PullDoAfter
+    pullTime: 1.7
 
 - type: entity
   parent: STBaseWeaponSMGPP19
