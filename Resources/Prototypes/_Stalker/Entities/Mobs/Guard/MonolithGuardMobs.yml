@@ -180,3 +180,15 @@
     falloffMultiplier: 0.8
   - type: STWeaponAccuracy
     accuracyMultiplier: 1.2
+
+- type: entity
+  name: Зомби
+  suffix: Stalker, NPC
+  parent: MobMonolithGuardPatroolSevaAbakan
+  id: MobStalkerZombiePatroolJacketAKSU
+  components:
+  - type: Sprite
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: alive
+      sprite: /Textures/_Stalker/Mobs/Zombifed/Jacket/AKS-74U/stalker.rsi
