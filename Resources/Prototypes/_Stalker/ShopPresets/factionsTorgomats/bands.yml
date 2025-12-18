@@ -2,69 +2,69 @@
   id: BandsShopPreset
   itemsForSale:
     # Thermal group - 1
-    ZoneArtifactFireball: 540
-    ZoneArtifactEye: 810
-    ZoneArtifactFlame: 1620
+    ZoneArtifactFireball: 600
+    ZoneArtifactEye: 800
+    ZoneArtifactFlame: 1200
     # Thermal group - 2
-    ZoneArtifactCristall: 3240
-    ZoneArtifactLithosphere: 6480
+    ZoneArtifactCristall: 2400
+    ZoneArtifactLithosphere: 4800
     # Electrical group - 1
-    ZoneArtifactSparkler: 540
-    ZoneArtifactBattery: 810
-    ZoneArtifactFlash: 1620
-    ArtMoon: 3240
-    ZoneArtifactTesla: 4860
-    ZoneArtifactIce: 6480
+    ZoneArtifactSparkler: 550
+    ZoneArtifactBattery: 700
+    ZoneArtifactFlash: 1200
+    ArtMoon: 2400
+    ZoneArtifactTesla: 3600
+    ZoneArtifactIce: 4800
     # Gravity group - 1
-    ArtMedusa: 540
-    ZoneArtifactFlower: 810
-    ZoneArtifactNightStar: 3240
+    ArtMedusa: 550
+    ZoneArtifactFlower: 750
+    ZoneArtifactNightStar: 2400
     # Gravity group - 2
-    ZoneArtifactVyvert: 540
-    ZoneArtifactAmoeba: 810
+    ZoneArtifactVyvert: 650
+    ZoneArtifactAmoeba: 850
     ZoneArtifactFloodlight: 810
-    ZoneArtifactGravi: 1620
-    ZoneArtifactGoldfish: 6480
+    ZoneArtifactGravi: 1200
+    ZoneArtifactGoldfish: 4800
     ZoneArtifactSpring: 3600
-    ZoneArtifactFocus: 4860
-    ZoneArtifactStuntman: 6480
-    ZoneArtifactDistorter: 6480
-    ZoneArtifactSoul: 4860
+    ZoneArtifactFocus: 3600
+    ZoneArtifactStuntman: 4800
+    ZoneArtifactDistorter: 4800
+    ZoneArtifactSoul: 3600
     # Food
     FoodMeatDogCooked: 70
     STFoodMeatSpiderCooked: 35
     FoodMeatBoarCooked: 110
 
     # Acidic group - 1
-    ZoneArtifactBlood: 1600
-    ZoneArtifactMeat: 3200
-    ZoneArtifactKolobok: 4800
+    ZoneArtifactBlood: 1200
+    ZoneArtifactMeat: 2400
+    ZoneArtifactKolobok: 3600
     # Acidic group - 2
-    ZoneArtifactPellicle: 535
-    ZoneArtifactBaloon: 4800
+    ZoneArtifactPellicle: 550
+    ZoneArtifactBaloon: 3600
 
     # Mutant parts
 
     #Boars -------- Health * T * 0.45
-    MutantPartBoarHoof: 320 # T1
-    MutantPartSeasonedBoarHoof: 525 # T2
-    MutantPartOldBoarHoof: 645 # T3
+    MutantPartBoarHoof: 220 # T1
+    MutantPartSeasonedBoarHoof: 440 # T2
+    MutantPartOldBoarHoof: 650 # T3
 
     #T1 -------- Health * 1
-    MutantPartBlindDogTail: 180
-    MutantPartFleshEye: 260
-    FoodMeatSpiderLeg: 70
+    MutantPartBlindDogTail: 90
+    MutantPartFleshEye: 165
+    FoodMeatSpiderLeg: 60
 
     #T2 -------- Health * 1.8
-    MutantPartLeshiyRoot: 745
-    MutantPartPseudodogTail: 455
-    MutantPartSnorkFoot: 875
+    MutantPartLeshiyRoot: 700
+    MutantPartPseudodogTail: 300
+    MutantPartSnorkFoot: 450
 
     #T3 -------- Health * 3
-    MutantPartBloodsuckerTentacles: 1015
-    MutantPartOraculeEye: 2160
-    MutantPartPseudogiantHeart: 5400
-    MutantPartZombieHand: 810
+    MutantPartBloodsuckerTentacles: 1000
+    MutantPartOraculeEye: 1300
+    MutantPartPseudogiantHeart: 7800
+    MutantPartZombieHand: 550
 
      #Weapons and armour ---- min cost / 2
 
@@ -181,27 +181,32 @@
         StalkerBallBat: 50
             # Guns
           # 7mm
-        STWeaponShotgunTOZ34: 100 # T2
-        STWeaponShotgunMossbergM88: 500 # T2
-        STWeaponShotgunMP153: 1000 # T3
+        STWeaponShotgunTOZ34: 150 # T2
+        STWeaponShotgunMP133: 385
+        STWeaponShotgunMossbergM88: 330 # T2
           # 5,45x39
-        STWeaponRifleSaiga545: 1200
-        STWeaponRifleAKS74U: 1700
-        STWeaponRifleL85: 2500
+        STWeaponRifleSaiga545: 500
+        STWeaponRifleAKS74U: 1200
         STWeaponRifleAKS74: 3500
-        STWeaponRifleSCARH: 6000
-        STWeaponRifleAK74M: 6300
+        STWeaponRifleSCARH: 5500
         # Smg
-        STWeaponSMGMP5: 2000
-        STWeaponSMGPPSh41: 1250
-        STWeaponSMGMP40: 500
+        STWeaponSMGMP5: 1800
+        STWeaponSMGPP91: 1500
+        STWeaponSMGPPSh41: 2200
+        STWeaponSMGMP40: 600
         STWeaponSMGPP19: 1500
+        STBaseWeaponSMGViper: 2000
+        STWeaponSMGStalkerCP2Veresk: 3500
         # Other
-        WeaponPistolStalkerTT: 50
-        WeaponPistolStalkerAPS: 200
-        STWeaponSniperMosin: 1000
+        WeaponPistolStalkerGlock: 200
+        WeaponStalkerPistolTec9: 200
+        WeaponPistolStalkerPM: 100
+        STWeaponRifleFAL: 1300
+        WeaponPistolStalkerTT: 200
+        WeaponPistolStalkerAPS: 300
+        STWeaponSniperMosin: 1200
         STWeaponSniperSKS: 1500
-        STWeaponRevolverSWPC325TR: 700
+        STWeaponRevolverSWPC325TR: 750
     - name: shop-category-magazines
       priority: 2
       items:
@@ -275,19 +280,15 @@
           # Helmets #
         ClothingHeadHelmetLight: 200 # T1 - PVE
         ClothingHeadHelmetInfantryBand: 600 # T2 - PVP
-        ClothingHeadHelmetVityaz1B: 2200 # T2 - PVE
-        ClothingHeadAssaultHelmetBandit: 2500
+        ClothingHeadHelmetVityaz1B: 2000 # T2 - PVE
+        ClothingHeadAssaultHelmetBandit: 3000
           # OuterClothing #
-        ClothingOuterCoatBanditBrown: 325 # T1 - uni
-        ClothingOuterCoatBanditBlack: 325 # T1 - uni
-        STClothingOuterArmorLightPlateVestBaseBand: 1000 # T2 - PvP
-        SetArmoutJacketBanditBuyableCrate: 1025 # T2 - PvP
-        ClothingOuterArmourCoatBanditBrown: 1050 # T2 - PvP
-        ClothingOuterArmourCoatBanditBlack: 1050 # T2 - PvP
-        STClothingOuterArmorBandits: 2000
-        STClothingOuterArmorRCBZ: 2000
-        ClothingOuterArmorBandits: 5500
-        ClothingOuterArmorHeavyJaba: 10000
+        ClothingOuterCoatBanditBrown: 70 # T1 - uni
+        ClothingOuterCoatBanditBlack: 70 # T1 - uni
+        STClothingOuterArmorLightPlateVestBaseBand: 900 # T2 - PvP
+        STClothingOuterArmorBandits: 1400
+        ClothingOuterArmorBandits: 3500
+        ClothingOuterArmorHeavyJaba: 8000
     - name: shop-category-storage-and-containers
       priority: 5
       items:

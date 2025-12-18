@@ -8,15 +8,14 @@
         STCombatKnife: 10
             # Guns
         WeaponPistolStalkerGlock: 200
-        STWeaponShotgunTOZ34: 200
-        STWeaponShotgunMossbergM88: 650
+        STWeaponShotgunTOZ34: 150
         STWeaponRevolverRugerRedhawk: 750
         STWeaponShotgunSPAS: 1350
         STWeaponRevolverSWModel625: 1650
-        STWeaponRifleAKS74U: 1750
-        STWeaponSMGPP1901: 2250
+        STWeaponRifleAKS74U: 1300
+        STWeaponSMGPP19: 1600
         STWeaponRifleM16: 3000
-        STWeaponRifleAKS74: 3500
+        WeaponPistolStalkerPM: 100
     - name: shop-category-magazines
       priority: 2
       items:
@@ -52,12 +51,19 @@
       items:
           # Helmets #
         STClothingHeadTinfoil: 200
+        ClothingHeadHelmetLight: 200
+        ClothingHeadHelmetInfantry: 600
+        ClothingHeadHelmetVityaz1C: 2000
+        ClothingHeadAssaultHelmet: 3000
           # OuterClothing #
-        ClothingOuterJacketSCI: 60 # T1 - PVE
-        ClothingOuterArmorSSP99Amber: 1000
-        ClothingOuterArmorSevaSciWhite: 1750
-        ClothingOuterArmorSevaSciRed: 1750
-        STClothingNeckExoskeletonSci: 10000
+        ClothingOuterJacketSCI: 70 # T1 - PVE
+        STClothingOuterArmorLightPlateVestBaseStalker: 900
+        ClothingOuterArmorSSP99Amber: 2750
+        ClothingOuterArmorSSP99White: 3750
+        ClothingOuterArmorSSP24Sapfire: 4225
+        ClothingOuterArmorSevaSciWhite: 4000
+        ClothingOuterArmorSSP99: 4100
+        STClothingNeckExoskeletonSci: 8000
 
     - name: shop-category-storage-and-containers
       priority: 5

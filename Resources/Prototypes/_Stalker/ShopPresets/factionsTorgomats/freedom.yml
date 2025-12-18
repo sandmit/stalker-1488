@@ -1,92 +1,91 @@
 - type: shopPreset
   id: FreedomShopPreset
   itemsForSale:
-    # Thermal group - 1 x1.5 Sidorovich
-    ZoneArtifactFireball: 810
-    ZoneArtifactEye: 1215
-    ZoneArtifactFlame: 2430
+    # Thermal group - 1
+    ZoneArtifactFireball: 900
+    ZoneArtifactEye: 1200
+    ZoneArtifactFlame: 1800
     # Thermal group - 2
-    ZoneArtifactCristall: 4860
-    ZoneArtifactLithosphere: 9720
+    ZoneArtifactCristall: 3600
+    ZoneArtifactLithosphere: 7200
     # Electrical group - 1
-    ZoneArtifactSparkler: 810
-    ZoneArtifactBattery: 1215
-    ZoneArtifactFlash: 2430
-    ArtMoon: 4860
-    ZoneArtifactTesla: 7290
-    ZoneArtifactIce: 9720
+    ZoneArtifactSparkler: 750
+    ZoneArtifactBattery: 1050
+    ZoneArtifactFlash: 1800
+    ArtMoon: 3600
+    ZoneArtifactTesla: 5400
+    ZoneArtifactIce: 7200
     # Gravity group - 1
-    ArtMedusa: 810
-    ZoneArtifactFlower: 1215
-    ZoneArtifactNightStar: 4860
+    ArtMedusa: 825
+    ZoneArtifactFlower: 1125
+    ZoneArtifactNightStar: 3600
     # Gravity group - 2
-    ZoneArtifactVyvert: 810
-    ZoneArtifactAmoeba: 1215
-    ZoneArtifactFloodlight: 1215
-    ZoneArtifactGravi: 2430
-    ZoneArtifactGoldfish: 9720
+    ZoneArtifactVyvert: 975
+    ZoneArtifactAmoeba: 1275
+    ZoneArtifactFloodlight: 810
+    ZoneArtifactGravi: 1800
+    ZoneArtifactGoldfish: 7200
     ZoneArtifactSpring: 5400
-    ZoneArtifactFocus: 7290
-    ZoneArtifactStuntman: 9720
-    ZoneArtifactDistorter: 9720
-    ZoneArtifactSoul: 7290
+    ZoneArtifactFocus: 5400
+    ZoneArtifactStuntman: 7200
+    ZoneArtifactDistorter: 7200
+    ZoneArtifactSoul: 5400
+    # Food
+    FoodMeatDogCooked: 70
+    STFoodMeatSpiderCooked: 35
+    FoodMeatBoarCooked: 110
+
     # Acidic group - 1
-    ZoneArtifactBlood: 2430
-    ZoneArtifactMeat: 4860
-    ZoneArtifactKolobok: 7290
+    ZoneArtifactBlood: 1800
+    ZoneArtifactMeat: 3600
+    ZoneArtifactKolobok: 5400
     # Acidic group - 2
-    ZoneArtifactPellicle: 810
-    ZoneArtifactBaloon: 7290
-    #meat
-    STFoodMeatSalo: 135
-    FoodMeatBoar: 70
-    FoodMeatDog: 35
-    FoodMeatBoarCooked: 115
-    FoodMeatDogCooked: 75
+    ZoneArtifactPellicle: 825
+    ZoneArtifactBaloon: 5400
 
     # Mutant parts
 
     #Boars -------- Health * T * 0.45
-    MutantPartBoarHoof: 220 # T1
-    MutantPartSeasonedBoarHoof: 405 # T2
-    MutantPartOldBoarHoof: 545 # T3
+    MutantPartBoarHoof: 253 # T1
+    MutantPartSeasonedBoarHoof: 506 # T2
+    MutantPartOldBoarHoof: 748 # T3
 
     #T1 -------- Health * 1
-    MutantPartBlindDogTail: 120
-    MutantPartFleshEye: 300
-    FoodMeatSpiderLeg: 70
+    MutantPartBlindDogTail: 104
+    MutantPartFleshEye: 190
+    FoodMeatSpiderLeg: 69
 
     #T2 -------- Health * 1.8
-    MutantPartLeshiyRoot: 745
-    MutantPartPseudodogTail: 405
-    MutantPartSnorkFoot: 675
+    MutantPartLeshiyRoot: 805
+    MutantPartPseudodogTail: 345
+    MutantPartSnorkFoot: 518
 
     #T3 -------- Health * 3
-    MutantPartBloodsuckerTentacles: 1015
-    MutantPartOraculeEye: 2160
-    MutantPartPseudogiantHeart: 5400
-    MutantPartZombieHand: 810
+    MutantPartBloodsuckerTentacles: 1150
+    MutantPartOraculeEye: 1495
+    MutantPartPseudogiantHeart: 7800
+    MutantPartZombieHand: 633
   categories:
     - name: shop-category-weapons
       priority: 1
       items:
             # Guns
           # 12mm
-        STWeaponShotgunTOZ34: 225 # T2
-        STWeaponShotgunMossbergM88: 500 # T2
-        STWeaponShotgunSPAS: 2000
+        STWeaponShotgunTOZ34: 150 # T2
+        STWeaponShotgunMP133: 385
+        STWeaponShotgunProtecta: 2500
           # Nato
-        STWeaponRifleL85: 2000
+        STWeaponRifleL85: 1300
+        STWeaponRifleM16: 2300
         STWeaponRifleSCARH: 5000
-        STWeaponRifleSCARL: 3500
-        STWeaponRifleM4: 3000
-        STWeaponRifleG36: 6000
+        STWeaponRifleM4: 3500
+        STWeaponRifleG36: 5500
                   # Smg
-        STWeaponSMGMP5: 1800
+        STWeaponSMGMP5: 2300
           # Other
-        STWeaponRevolverRugerRedhawk: 400
-        STWeaponRevolverSWPC325TR: 850
-        WeaponPistolStalkerGlock: 400
+        STWeaponRevolverRugerRedhawk: 300
+        WeaponPistolStalkerGlock: 200
+        WeaponStalkerPistolTec9: 250
     - name: shop-category-magazines
       priority: 2
       items:
@@ -134,17 +133,18 @@
       priority: 4
       items:
           # Helmets #
+        ClothingHeadHelmetLight: 200
         ClothingHeadHelmetInfantry: 600 # T2 - PVP
-        ClothingHeadHelmetVityaz1C: 2250 # T2 - PVE
-        ClothingHeadAssaultHelmet: 3250
+        ClothingHeadHelmetVityaz1C: 2000 # T2 - PVE
+        ClothingHeadAssaultHelmet: 3000
           # OuterClothing #
-        ClothingOuterJacketFreedom: 60 # T1 - PVE
-        STClothingOuterArmorLightPlateVestBaseFreedom: 500 # T2 - PvP
-        ClothingOuterArmorRCBZFreedom: 1700 # T2 - ENV
-        ClothingOuterArmorFreedomWind: 1300
-        ClothingOuterArmorAborigineFreedom: 5200
-        ClothingOuterArmorSevaFreedom: 5000
-        STClothingOuterArmorVolchankaFreedom: 10000
+        ClothingOuterJacketFreedom: 70 # T1 - PVE
+        STClothingOuterArmorLightPlateVestBaseFreedom: 900 # T2 - PvP
+        ClothingOuterArmorRCBZFreedom: 1200 # T2 - ENV
+        ClothingOuterArmorFreedomWind: 1400
+        ClothingOuterArmorFreedomDefender: 4500
+        ClothingOuterArmorSevaFreedom: 4500
+        STClothingOuterArmorVolchankaFreedom: 9500
     - name: shop-category-storage-and-containers
       priority: 5
       items:

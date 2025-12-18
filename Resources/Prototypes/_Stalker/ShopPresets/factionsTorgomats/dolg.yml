@@ -1,28 +1,70 @@
 - type: shopPreset
   id: DolgShopPreset
   itemsForSale:
-# Mutant parts 1.5x Sidorovich
+    # Thermal group - 1
+    ZoneArtifactFireball: 510
+    ZoneArtifactEye: 680
+    ZoneArtifactFlame: 1020
+    # Thermal group - 2
+    ZoneArtifactCristall: 2040
+    ZoneArtifactLithosphere: 4080
+    # Electrical group - 1
+    ZoneArtifactSparkler: 425
+    ZoneArtifactBattery: 595
+    ZoneArtifactFlash: 1020
+    ArtMoon: 2040
+    ZoneArtifactTesla: 3060
+    ZoneArtifactIce: 4080
+    # Gravity group - 1
+    ArtMedusa: 468
+    ZoneArtifactFlower: 638
+    ZoneArtifactNightStar: 2040
+    # Gravity group - 2
+    ZoneArtifactVyvert: 553
+    ZoneArtifactAmoeba: 723
+    ZoneArtifactFloodlight: 810
+    ZoneArtifactGravi: 1020
+    ZoneArtifactGoldfish: 4080
+    ZoneArtifactSpring: 3060
+    ZoneArtifactFocus: 300
+    ZoneArtifactStuntman: 4080
+    ZoneArtifactDistorter: 4080
+    ZoneArtifactSoul: 3060
+    # Food
+    FoodMeatDogCooked: 70
+    STFoodMeatSpiderCooked: 35
+    FoodMeatBoarCooked: 110
 
-    #Boars -------- Health * T *
-    MutantPartBoarHoof: 275 # T1
-    MutantPartSeasonedBoarHoof: 545 # T2
-    MutantPartOldBoarHoof: 825 # T3
+    # Acidic group - 1
+    ZoneArtifactBlood: 1020
+    ZoneArtifactMeat: 2040
+    ZoneArtifactKolobok: 3060
+    # Acidic group - 2
+    ZoneArtifactPellicle: 468
+    ZoneArtifactBaloon: 3060
+
+    # Mutant parts
+
+    #Boars -------- Health * T * 0.45
+    MutantPartBoarHoof: 30 # T1
+    MutantPartSeasonedBoarHoof: 660 # T2
+    MutantPartOldBoarHoof: 975 # T3
 
     #T1 -------- Health * 1
-    MutantPartBlindDogTail: 180
-    MutantPartFleshEye: 405
-    FoodMeatSpiderLeg: 100
+    MutantPartBlindDogTail: 135
+    MutantPartFleshEye: 250
+    FoodMeatSpiderLeg: 60
 
     #T2 -------- Health * 1.8
-    MutantPartLeshiyRoot: 1115
-    MutantPartPseudodogTail: 610
-    MutantPartSnorkFoot: 1015
+    MutantPartLeshiyRoot: 1050
+    MutantPartPseudodogTail: 450
+    MutantPartSnorkFoot: 675
 
     #T3 -------- Health * 3
-    MutantPartBloodsuckerTentacles: 1520
-    MutantPartOraculeEye: 3240
-    MutantPartPseudogiantHeart: 8100
-    MutantPartZombieHand: 1215
+    MutantPartBloodsuckerTentacles: 1500
+    MutantPartOraculeEye: 1950
+    MutantPartPseudogiantHeart: 9570
+    MutantPartZombieHand: 825
   categories:
     - name: shop-category-weapons
       priority: 1
@@ -30,24 +72,22 @@
             # Guns
           # 7mm
         STWeaponShotgunTOZ34: 100
-        STWeaponShotgunMP133: 340
-        STWeaponShotgunMP153: 800
-        STWeaponShotgunSaiga12: 6000
+        STWeaponShotgunMP133: 385
+        STWeaponShotgunMP153: 550
+        STWeaponShotgunSPAS: 1100
+        STWeaponShotgunSaiga12: 5000
           # 5,45x39
-        STWeaponRifleSaiga545: 1000
-        STWeaponRifleAKS74U: 1500
-        STWeaponRifleAKS74: 3500
-        STWeaponRifleAK74M: 6300
+        STWeaponRifleAKS74U: 1000
+        STWeaponRifleAKS74: 3000
+        STWeaponRifleAK74M: 5500
           # Smg
-        STWeaponSMGPP91: 1200
-        STWeaponSMGStalkerCP2Veresk: 2000
-        STWeaponSMGPP19: 3000
-        STWeaponSMGPPSh41: 1500
+        STWeaponSMGPP19: 1800
           # Other
-        WeaponPistolStalkerAPS: 500 #T2
-        WeaponPistolStalkerTT: 250
+        WeaponPistolStalkerPM: 100
+        WeaponPistolStalkerAPS: 400 #T2
+        WeaponPistolStalkerTT: 150
         STWeaponSniperMosin: 1000
-        STWeaponSniperSKS: 1500
+        STWeaponSniperSKS: 1200
         STWeaponRifleAKM: 5000
     - name: shop-category-magazines
       priority: 2
@@ -108,16 +148,15 @@
           # Helmets #
         ClothingHeadHelmetDolg: 200 # T1 - PVE
         ClothingHeadHelmetInfantryDolg: 600 # T2 - PVP
-        ClothingHeadHelmetVityaz1M: 2200
-        ClothingHeadAssaultHelmetDolg: 2500
-        ClothingHeadHelmetBerill5MDolg: 2500
+        ClothingHeadHelmetVityaz1M: 2000
+        ClothingHeadAssaultHelmetDolg: 3000
           # OuterClothing #
-        ClothingOuterJacketDolg: 60 # T1 - PVE
-        STClothingOuterArmorLightPlateVestBaseDolg: 1000 # T2 - PvP
-        ClothingOuterArmorRCBZDolg: 1700 # T2 - ENV
-        ClothingOuterArmorZaryaDolg: 2000 # T2 - universal
+        ClothingOuterJacketDolg: 70 # T1 - PVE
+        STClothingOuterArmorLightPlateVestBaseDolg: 900 # T2 - PvP
+        ClothingOuterArmorRCBZDolg: 1600 # T2 - ENV
+        ClothingOuterArmorZaryaDolg: 1600 # T2 - universal
         SetPS5MDolgBuyableCrate: 5500
-        ClothingOuterArmorSevaDolgRed: 8500 # T3 - ENV
+        ClothingOuterArmorSevaDolgRed: 5500 # T3 - ENV
         ClothingOuterArmorPSZ9D: 10000
     - name: shop-category-storage-and-containers
       priority: 5
