@@ -57,8 +57,6 @@
         ents: []
       gun_module_scope: !type:ContainerSlot
       gun_module_muzzle: !type:ContainerSlot
-  - type: PullDoAfter
-    pullTime: 3.5
   - type: STWeaponModuleContainer
   - type: ItemSlots
     slots:

@@ -26,8 +26,6 @@
       - CartridgeShotgunBullet
       - CartridgeShotgunBulletRIP
   - type: PullDoAfter
-    pullTime: 0.5
-  - type: PullDoAfter
     pullTime: 1
 
 - type: entity

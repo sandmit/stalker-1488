@@ -57,3 +57,13 @@
       toggleable-clothing: !type:ContainerSlot {}
       storagebase: !type:Container
         ents: []
+
+- type: entity
+  parent: STClothingOuterArmorVeryHeavy
+  id: STClothingOuterArmorVeryHeavySOP
+  name: КСН-13 «Бегемот»
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Clothing/outerClothing/begemot_armor_sop.rsi
+  - type: Clothing
+    sprite: _Stalker/Objects/Clothing/outerClothing/begemot_armor_sop.rsi

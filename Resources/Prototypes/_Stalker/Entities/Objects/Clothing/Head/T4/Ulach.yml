@@ -83,3 +83,13 @@
     sprite: _Stalker/Objects/Clothing/hats/normal_merc_helm.rsi
   - type: Clothing
     sprite: _Stalker/Objects/Clothing/hats/normal_merc_helm.rsi
+
+- type: entity
+  parent: ClothingHeadHelmetUlach
+  id: ClothingHeadHelmetFASTSOP
+  name: военный шлем «FAST»
+  components:
+  - type: Sprite
+    sprite: _Stalker/Objects/Clothing/hats/fast_sop.rsi
+  - type: Clothing
+    sprite: _Stalker/Objects/Clothing/hats/fast_sop.rsi

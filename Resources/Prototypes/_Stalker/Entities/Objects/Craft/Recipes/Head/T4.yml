@@ -68,3 +68,13 @@
       amount: 2
     STCraftSapphireCrystalT4:
       amount: 1
+
+- type: lightCraftingRecipe
+  id: STCraftSkinSTClothingHeadHelmetFASTSOP
+  results:
+  - ClothingHeadHelmetFASTSOP
+  steps:
+    firstIngredient: STSkinsKitMilitary
+    secondIngredient: ClothingHeadHelmetUlach
+    keepFirst: true
+    time: 5

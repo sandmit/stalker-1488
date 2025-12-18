@@ -283,3 +283,13 @@
       amount: 1
     STCraftPolymerFabricT4:
       amount: 1
+
+- type: lightCraftingRecipe
+  id: STCraftSkinSTClothingOuterArmorVeryHeavySOP
+  results:
+  - STClothingOuterArmorVeryHeavySOP
+  steps:
+    firstIngredient: STSkinsKitMilitary
+    secondIngredient: STClothingOuterArmorVeryHeavy
+    keepFirst: true
+    time: 5
