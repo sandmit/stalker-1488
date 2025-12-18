@@ -28,7 +28,7 @@
     - type: ZoneAnomalyEffectDamage
       damage:
         types:
-          Caustic: 10
+          Caustic: 5
     - type: ZoneAnomalyEffectDestroy
       whitelist:
         tags:
@@ -66,7 +66,7 @@
     - type: ZoneAnomalyEffectDamage
       damage:
         types:
-          Caustic: 90
+          Caustic: 50
     - type: ZoneAnomalyEffectDestroy
       whitelist:
         tags:
