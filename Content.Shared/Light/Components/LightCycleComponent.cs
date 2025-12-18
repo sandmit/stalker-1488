@@ -12,6 +12,14 @@ public sealed partial class LightCycleComponent : Component
     [DataField, AutoNetworkedField]
     public Color OriginalColor = Color.Transparent;
 
+    // Stalker-Changes-Start
+    [ViewVariables(VVAccess.ReadOnly)]
+    public Color UnchangedOriginalColor { get; internal set; } = Color.Transparent;
+
+    [ViewVariables(VVAccess.ReadOnly)]
+    public Color OriginalMinLevel { get; internal set; } = new Color(0.1f, 0.15f, 0.50f);
+    // Stalker-Changes-End
+
     /// <summary>
     /// How long an entire cycle lasts
     /// </summary>
@@ -40,7 +48,7 @@ public sealed partial class LightCycleComponent : Component
     /// Peak of the oscillation
     /// </summary>
     [DataField, AutoNetworkedField]
-    public float MaxLightLevel = 3f;
+    public float MaxLightLevel = 24.6f; // Stalker-Changes: Replaced 3f to make days longer
 
     [DataField, AutoNetworkedField]
     public float ClipLight = 1.25f;
@@ -52,5 +60,5 @@ public sealed partial class LightCycleComponent : Component
     public Color MinLevel = new Color(0.1f, 0.15f, 0.50f);
 
     [DataField, AutoNetworkedField]
-    public Color MaxLevel = new Color(2f, 2f, 5f);
+    public Color MaxLevel = new Color(9f, 14f, 13f); // Stalker-Changes: Replaced "2f, 2f, 5f" so we can modify the curve to be suitable for longer days
 }

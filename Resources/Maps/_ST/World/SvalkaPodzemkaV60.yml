@@ -57,6 +57,7 @@ entities:
     - type: MetaData
       name: Подземелье Свалки
     - type: Transform
+    - type: Roof
     - type: Map
       mapPaused: True
     - type: GridTree
